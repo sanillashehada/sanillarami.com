@@ -1,0 +1,465 @@
+body {
+    font-family: "Figtree", sans-serif;
+    color: #603f99; 
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #98a7d5
+}
+
+h3 {
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 0px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border-color: #603f99;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar-brand {
+    padding-left: 1.5em;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #603f99;
+}
+
+.nav-link:hover {
+    color: #98a7d5;
+}
+
+#headerfull {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#hero p {
+    color: #603f99;
+    font-weight: 600;
+}
+#hero h2 {
+    color: #98a7d5;
+    font-weight: 600;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .col {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#graphicdesigner {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+
+#design {
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+#design h2 {
+    padding-bottom: 10px;
+}
+.card-img {
+    object-fit: cover;
+    height: 350px;
+}
+.card-img-overlay:hover .branding {
+    color: #98a7d5;
+    font-weight: 600;
+}
+
+.card-img-overlay:hover .print {
+    font-weight: 600;
+}
+
+.card-img-overlay:hover .web {
+    color: #98a7d5;
+    font-weight: 600;
+}
+
+.card {
+    border-width: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+
+}
+
+.card-img-overlay:hover {
+    background-color: rgba(96, 63, 153, 0.92);
+}
+
+.card-img-overlay:hover h5 {
+    color: white;
+}
+
+.card-img-overlay:hover p {
+    color: white;
+}
+
+.card-img-overlay:hover .coming-soon{
+    color: rgba(255,255,255,0.75);
+    font-weight: 400;
+}
+
+.card h5 {
+    color: rgba(255,255,255,0.0);
+    text-transform: uppercase;
+    font-size: 18pt;
+}
+
+.card p {
+    color: rgba(255,255,255,0.0);
+    text-transform: uppercase;
+    font-size: 14pt;
+}
+
+.card .coming-soon {
+    color: rgba(225, 255, 255, 0.0);
+    font-weight: 700;
+}
+
+#aboutfull {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    background-color: #603f99;
+    color: white;
+}
+    
+#aboutfull h2 {
+    padding-bottom: 10px;
+}
+
+#about {
+    text-align: center;
+	margin: 30px;
+    color: white;
+}
+#about p {
+    text-align: left;
+	margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+}
+
+#about h2 {
+    color: white;
+}
+
+#services {
+    font-weight: 600;
+}
+
+#about img {
+    padding-bottom: 25px;
+}
+
+#about h3 {
+    text-transform: uppercase;
+    color: white;
+}
+
+#about p {
+    padding-bottom: 5px;
+    color: white;
+}
+
+#resume-btn {
+    border: 3px solid white;
+    color: white;
+    font-weight: 500;
+}
+
+#resume-btn:hover {
+    border: 3px solid white;
+    background-color: white;
+    color: #603f99;
+}
+
+#designstmt {
+    font-size: 20pt;
+}   
+
+#footerfull {
+    padding-top: 30px;
+    background-color: #98a7d5;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#footer h4 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-icon {
+    width: 1.25em;
+}
+
+.link-footer-icon {
+    width:0.9em;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+/* CONTACT PAGE */
+#contact h1 {
+    padding-top: 20px;
+    color:#98a7d5;
+    font-weight:600;
+}
+
+#contact h2 {
+    padding-top: 30px;
+    color: #603f99;
+    font-size: 20pt;
+    font-weight:600;
+}
+
+#contact a {
+    color: #603f99;
+    padding-right: 10px;
+    line-height: 40px;
+}
+
+#contact a:hover {
+    color: #98a7d5;
+}
+
+.form-floating {
+    padding-bottom: 15px;
+}
+
+.contact-icon {
+    width: 25px;
+    text-decoration: none;
+}
+
+.link-contact-icon {
+    width: 28px;
+    padding-left: 10px;
+}
+
+#submitbtn {
+    border: 3px solid #603f99;
+    background-color: white;
+    color: #603f99;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 14pt;
+    margin-bottom: 15px;
+}
+
+#submitbtn:hover {
+    border: 3px solid #98a7d5;
+    background-color: #98a7d5;
+    color: white;
+    font-weight: 500;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+label {
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+#thanks {
+    text-transform: uppercase;
+    color: #98a7d5;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 15pt;
+}
+
+#chatsoon {
+    padding-bottom: 20px;
+}
+
+/* PROJECT PAGES */
+.project-page h1,h2,h3,p {
+    color: #603f99;
+}
+
+h1 .project-page {
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+h2 .project-page{
+    font-size: 20px;
+}
+
+#processbook {
+    padding-bottom: 25px;
+}
+
+#carouselExampleControls {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.carousel-container {
+    max-width: 1000px;
+}
+
+#helwig-carousel .carousel-container {
+    max-width: 900px;
+}
+
+.project-caption {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projecthero {
+    padding-bottom: 25px;
+}
+
+.cafebrochure {
+    padding-bottom: 25px;
+}
+
+.cafelogo {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#wireframefull{
+    background-color: #603f99;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cafeivaco {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.cbwidth {
+    width: 1000px;
+}
+
+.flatpkg {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#cafeivapack {
+    max-width: 1000px;
+}
+
+.card button {
+    border: 3px solid rgba(255,255,255,0.0);
+    text-transform: uppercase;
+    font-size: 18pt;
+    font-weight: 500;
+    color: rgba(225, 255, 255, 0.0);
+}
+
+.card-img-overlay:hover button {
+    border: 3px solid white;
+    color: white;
+}
+
+.card-img-overlay:hover button:hover {
+    border: 3px solid white;
+    background-color: white;
+}
+
+.terr-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.terr-screen {
+    padding-top: 10px;
+}
+
+#appbtn {
+    border: 3px solid #98a7d5;
+    color: #98a7d5;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#appbtn:hover {
+    border: 3px solid #98a7d5;
+    background-color:#98a7d5;
+    color:white;
+}
+
+#collab-logo {
+    max-width: 250px;
+}
+
+#articlegif {
+    border: 2px solid rgba(50,62,72,0.25);
+}
+
+.gallery {
+    padding-bottom: 50px;
+}
+
+.gallery img {
+    max-width: 100%;
+}
+
+.modal-img {
+    width: 100%;
+}
+
+.modal-open-button {
+    border: 0px;
+    padding: 0px;
+    margin: 5px;
+}
